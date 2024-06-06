@@ -464,7 +464,7 @@ h3.title-1_TkpU.fontDisplay-3Gtuks.base__1aa9d.size24__367cf,
 }
 
 .overflow__993fa:not(.nameAndDecorators_c896d6 .overflow__993fa) {
-    text-transform: capitalize !important;
+    text-transform: lowercase !important;
     font-size: 11pt;
     font-weight: 500;
 }
@@ -534,7 +534,6 @@ h3.title-1_TkpU.fontDisplay-3Gtuks.base__1aa9d.size24__367cf,
 
 .name_e8e549 {
     color: var(--channels-default);
-    text-transform: lowercase;
     font-size: 9pt;
 }
 
@@ -729,10 +728,10 @@ code {
 }
 
 :root {
-  --server-size: var(40px, var(--HSL-size, 35px));
-  --server-spacing: var(10px, var(--HSL-spacing, 10px));
+  --server-size: var(--HSL-server-icon-size, var(--HSL-size, 35px));
+  --server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 10px));
   --server-container: calc(var(--server-size) + 20px);
-  --server-direction: var(column, column);
+  --server-direction: var(--HSL-server-direction, column);
   --server-alignment: var(--HSL-server-alignment, flex-start);
 }
 
