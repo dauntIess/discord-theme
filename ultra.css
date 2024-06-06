@@ -721,3 +721,8 @@ code {
     border-radius: 38%;
     mask: unset;
 }
+
+.bd-error-modal-header,
+.bd-error-modal-content {
+    background-color: var(--background-secondary) !important;
+}
