@@ -17,7 +17,7 @@
 rect.pointerEvents__585e6 {
     stroke: var(--background-primary);
     stroke-width: 2px;
-    mask: none;
+    mask: unset;
     ry: 4px;
     rx: 4px;
 }
@@ -607,6 +607,7 @@ code {
 .arrow_cb03b8 {
     display: none;
 }
+
 
 .scroller-1bVxF5 {
     padding: 6px 8px !important;
