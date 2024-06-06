@@ -14,6 +14,14 @@
     border-bottom-right-radius: 5px;
 }
 
+rect.pointerEvents__585e6 {
+    stroke: var(--background-primary);
+    stroke-width: 2px;
+    mask: none;
+    ry: 4px;
+    rx: 4px;
+}
+
 .svg-2azL_l > svg > rect {
     mask: unset;
     width: 10px;
@@ -167,10 +175,10 @@ textarea {
     margin-bottom: 10px;
 }
 
+
 .mask-1FEkla circle {
     display: none;
 }
-
 
 .wrapper__8a5dd {
     border: 3px solid var(--background-secondary);
@@ -203,6 +211,9 @@ textarea {
     background-color: var(--background-primary) !important;
 }
 
+.wrapper-1VLyxH foreignObject:not(rect.pointerEvents__585e6) {
+    mask: unset;
+}
 
 #app-mount .lowerBadge-3WTshO {
     border-radius: 50% !important;
@@ -434,8 +445,6 @@ h3.title-1_TkpU.fontDisplay-3Gtuks.base__1aa9d.size24__367cf,
 .link_ddbb36:hover {
     position: relative;
 }
-
-
 
 .overflow__993fa:not(.nameAndDecorators_c896d6 .overflow__993fa) {
     font-size: 11pt;
