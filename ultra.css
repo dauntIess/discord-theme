@@ -1,5 +1,10 @@
 :root {
-    --version: "1.0.7";
+    --version: "1.0.0";
+}
+
+.container__827e6.fixClipping__84826{
+  background: 0 0;
+  backdrop-filter: blur(5px);
 }
 
 #app-mount .wrapper__3ed10 {
