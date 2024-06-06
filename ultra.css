@@ -147,7 +147,7 @@
   z-index: 1;
 }
 #app-mount .wrapper__3ed10 foreignObject[mask*=mobile] + rect {
-  stroke: var(--status-phone-color, var(--rs-online-color));
+  stroke: var(--status-phone-color, var(--status-online-color));
 }
 #app-mount .avatarStack__789b4 {
   position: relative;
