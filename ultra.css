@@ -1,5 +1,5 @@
 :root {
-  --version: "1.0.7";
+  --version: "1.0.0";
 }
 
 .embedThumbnail__1f402 {
@@ -32,7 +32,6 @@ rect.pointerEvents__585e6 {
   ry: 4px;
   z-index: 9;
 }
-
 
 svg.cursorDefault--wfhy5 {
   display: block !important;
@@ -69,9 +68,6 @@ svg.cursorDefault--wfhy5 {
   background-color: var(--brand-experiment) !important;
 }
 
-[mask="url(#svg-mask-status-online-mobile)"] {
-  height: 15px !important;
-}
 
 [class^="socialLinks-"] + [class^="info-"] > span:first-child::before {
   content: "Ultra " var(--version);
