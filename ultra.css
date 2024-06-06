@@ -229,7 +229,7 @@ rect.pointerEvents__585e6 {
 }
 
 #app-mount .lowerBadge-3WTshO {
-    border-radius: 20% !important;
+    border-radius: 50% !important;
 }
 
 .numberBadge__40d6f::before {
@@ -239,7 +239,7 @@ rect.pointerEvents__585e6 {
     right: -5px;
     width: 25px;
     height: 25px;
-    border-radius: 25%;
+    border-radius: 50%;
     background: var(--background-tertiary);
     z-index: -1;
 }
@@ -307,7 +307,7 @@ h3.title-1_TkpU.fontDisplay-3Gtuks.base__1aa9d.size24__367cf,
 #app-mount .numberBadge__40d6f {
     background-color: var(--brand-experiment) !important;
     color: white;
-    border-radius: 20% !important;
+    border-radius: 50% !important;
 }
 
 .link_ddbb36 {
@@ -570,11 +570,11 @@ code {
 
 .avatarHint__15059 foreignObject {
     mask: unset;
-    border-radius: 35% !important;
+    border-radius: 50% !important;
 }
 
 .avatarHintInner_c8ddb1 {
-    border-radius: 35% !important;
+    border-radius: 50% !important;
 }
 
 .imageWrapper__178ee {
