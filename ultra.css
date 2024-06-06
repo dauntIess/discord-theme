@@ -134,7 +134,7 @@
 }
 #app-mount .wrapper__3ed10 foreignObject[mask*=mobile]:after {
   content: "";
-  display: var(--status-phone-visible, block);
+  display: none;
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg aria-hidden="true" focusable="false" data-prefix="fas" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path></svg>') center no-repeat;
           mask: url('data:image/svg+xml; utf-8,<svg aria-hidden="true" focusable="false" data-prefix="fas" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path></svg>') center no-repeat;
   position: absolute;
@@ -159,22 +159,7 @@
   width: calc(100% - 4px);
   height: calc(100% - 4px);
   border-radius: 50%;
-  box-shadow: inset 0 0 0 2px var(--rs-self-speaking-colour, #57d39b), inset 0 0 0 3px var(--background-secondary);
-}
-#app-mount .message_ccca67 .wrapper__3ed10 foreignObject[mask*=mobile] {
-  width: calc(100% + 3px);
-}
-#app-mount .avatarStack__789b4 {
-  position: relative;
-}
-#app-mount .avatarSpeaking__747a1 {
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  width: calc(100% - 4px);
-  height: calc(100% - 4px);
-  border-radius: 50%;
-  box-shadow: inset 0 0 0 2px var(--rs-self-speaking-colour, #57d39b), inset 0 0 0 3px var(--background-secondary);
+  box-shadow: inset 0 0 0 2px var(--status-self-speaking-colour, #57d39b), inset 0 0 0 3px var(--background-secondary);
 }
 #app-mount .message_ccca67 .wrapper__3ed10 foreignObject[mask*=mobile] {
   width: calc(100% + 3px);
