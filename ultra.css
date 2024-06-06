@@ -18,6 +18,7 @@ rect.pointerEvents__585e6 {
     stroke: var(--background-primary);
     stroke-width: 2px;
     mask: unset;
+    border-radius: 50%;
 }
 
 .svg-2azL_l > svg > rect {
