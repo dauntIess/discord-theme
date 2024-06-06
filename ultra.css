@@ -2,6 +2,12 @@
     --version: "1.0.7";
 }
 
+.wrapper__3ed10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .embedThumbnail__1f402 {
     border-radius: 4px !important;
 }
@@ -13,6 +19,7 @@
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+
 
 rect.pointerEvents__585e6 {
     stroke: var(--background-primary);
@@ -623,6 +630,14 @@ code {
 
 .arrow_cb03b8 {
     display: none;
+}
+
+.userPopoutOuter-3AVBmJ rect.pointerEvents__585e6,
+.profilePanel-2PWEok rect.pointerEvents__585e6 {
+    x: 66 !important;
+    y: 66 !important;
+    height: 15px;
+    width: 15px;
 }
 
 .layer-1Ixpg3 rect.pointerEvents__585e6 {
