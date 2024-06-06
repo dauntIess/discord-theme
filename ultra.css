@@ -2,13 +2,17 @@
     --version: "1.0.7";
 }
 
-.wrapper__3ed10 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.embedThumbnail__1f402 {
+    border-radius: 4px !important;
 }
 
-
+.animatedContainer__0e828,
+.bannerImage_c73a57 {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
 
 rect.pointerEvents__585e6 {
     stroke: var(--background-primary);
@@ -224,6 +228,9 @@ rect.pointerEvents__585e6 {
     mask: unset;
 }
 
+#app-mount .lowerBadge-3WTshO {
+    border-radius: 20% !important;
+}
 
 .numberBadge__40d6f::before {
     content: "";
@@ -232,6 +239,7 @@ rect.pointerEvents__585e6 {
     right: -5px;
     width: 25px;
     height: 25px;
+    border-radius: 25%;
     background: var(--background-tertiary);
     z-index: -1;
 }
@@ -278,6 +286,7 @@ h3.title-1_TkpU.fontDisplay-3Gtuks.base__1aa9d.size24__367cf,
     left: 188px;
     width: 30px !important;
     height: 30px !important;
+    border-radius: 0%;
     background: var(--background-secondary);
     z-index: 0;
 }
@@ -298,6 +307,7 @@ h3.title-1_TkpU.fontDisplay-3Gtuks.base__1aa9d.size24__367cf,
 #app-mount .numberBadge__40d6f {
     background-color: var(--brand-experiment) !important;
     color: white;
+    border-radius: 20% !important;
 }
 
 .link_ddbb36 {
@@ -330,6 +340,7 @@ h3.title-1_TkpU.fontDisplay-3Gtuks.base__1aa9d.size24__367cf,
     position: absolute;
     background-color: var(--selected-indicator);
     box-shadow: 0 0 20px 4px var(--selected-indicator);
+    border-radius: 50%;
     width: 5px;
     height: 5px;
     left: -9px;
@@ -346,6 +357,7 @@ h3.title-1_TkpU.fontDisplay-3Gtuks.base__1aa9d.size24__367cf,
     position: absolute;
     background-color: var(--hover-indicator);
     box-shadow: 0 0 20px 4px var(--hover-indicator);
+    border-radius: 50%;
     width: 5px;
     height: 5px;
     left: -9px;
@@ -384,6 +396,7 @@ h3.title-1_TkpU.fontDisplay-3Gtuks.base__1aa9d.size24__367cf,
 .unread__48cf4 {
     background-color: var(--brand-experiment);
     box-shadow: 0 0 20px 4px var(--brand-experiment);
+    border-radius: 50%;
     left: 6px;
     top: 58%;
     width: 5px;
@@ -499,6 +512,7 @@ h3.title-1_TkpU.fontDisplay-3Gtuks.base__1aa9d.size24__367cf,
 }
 
 .scrollableContainer_ff917f {
+    border-radius: 20px;
     min-height: 70px !important;
     display: flex;
     justify-content: center;
@@ -545,6 +559,9 @@ code {
 .wrapper-1VLyxH,
 .avatar-b5OQ1N,
 .avatar__08316,
+.avatar_a56eee {
+    border-radius: 50%;
+}
 
 .replyBar_ed6afc,
 .clipContainer_ab9cf6 {
@@ -553,6 +570,15 @@ code {
 
 .avatarHint__15059 foreignObject {
     mask: unset;
+    border-radius: 35% !important;
+}
+
+.avatarHintInner_c8ddb1 {
+    border-radius: 35% !important;
+}
+
+.imageWrapper__178ee {
+    border-radius: 20px;
 }
 
 .members__573eb,
@@ -672,6 +698,7 @@ code {
     font-size: 0px;
     background-color: var(--background-floating);
     float: left;
+    border-radius: 50%;
     height: 94px;
     width: 94px;
     margin: -7px;
@@ -689,6 +716,7 @@ code {
 }
 
 .mask_d5067d > foreignObject {
+    border-radius: 50%;
     mask: unset;
 }
 
@@ -744,6 +772,9 @@ code {
   bottom: 0;
   max-width: 100%;
 }
+#app-mount .sidebar_e031be {
+  border-radius: 0;
+}
 #app-mount [class*=unreadMentionsIndicator] {
   width: var(--server-size);
   padding: 0;
@@ -795,6 +826,7 @@ code {
   transform: scale(0, 1) !important;
   transition: 0.15s ease !important;
   margin-left: 0;
+  border-radius: 0 4px 4px 0;
 }
 #app-mount .guilds__2b93a [class*=pill] span[style*="height: 0"] {
   transform: scale(1, 0.24) !important;
@@ -940,6 +972,7 @@ code {
   width: var(--server-size);
 }
 #app-mount .guilds__2b93a [class*=expandedFolderBackground] {
+  border-radius: 10px;
   height: 100%;
 }
 #app-mount .guilds__2b93a .folder__17546 {
@@ -999,6 +1032,7 @@ code {
 #app-mount .guilds__2b93a .frame-oXWS21[class*=listItem] .button-Jt-tIg {
   width: 100%;
   height: 100% !important;
+  border-radius: 50%;
   padding: 2px;
   font-size: 10px;
   box-sizing: border-box;
@@ -1049,6 +1083,9 @@ body #app-mount .guilds__2b93a {
 body #app-mount .guilds__2b93a [class*=pill] {
   top: unset !important;
   bottom: calc(var(--server-size) / -1 + var(--server-size) / 2 - 8px) !important;
+}
+body #app-mount .guilds__2b93a [class*=pill] span {
+  border-radius: 4px 0 0 4px;
 }
 body #app-mount .guilds__2b93a.content-Pph8t6 {
   top: unset !important;
