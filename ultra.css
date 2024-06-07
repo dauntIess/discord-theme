@@ -15,12 +15,12 @@
 /* channel list */
 .overflow__993fa {
   text-transform: lowercase !important;
-  font-weight: 600 !important;
-  font-size: 14px;
+  font-weight: 700 !important;
+  font-size: 12px;
 }
 
 .overflow__993fa:not(.nameAndDecorators_c896d6 .overflow__993fa) {
-  font-size: 13pt;
+  font-size: 11pt;
   font-weight: 500;
 }
 
@@ -40,7 +40,6 @@
   color: var(--interactive-active);
   padding: 6px 8px;
 }
-
 
 .modeSelected__473f1 .link_ddbb36::before {
   content: "";
