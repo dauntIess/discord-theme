@@ -138,6 +138,21 @@
     font-family: var(--font);
 }
 
+/* friends list */
+.name_f842e4, .searchBarComponent__8f95f {
+  text-transform:  lowercase;
+}
+
+.linkButtonIcon_cff89e {
+  width: 15px;
+}
+
+/* nitro page */
+.heading__8054f {
+  text-transform: lowercase;
+  font-family: var(--font);
+}
+
 /*                                 */
 
 .animatedContainer__0e828,
