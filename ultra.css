@@ -12,18 +12,6 @@
     text-transform: lowercase;
 }
 
-/* channel list */
-.headerText_c0138d .overflow__993fa {
-  text-transform: lowercase !important;
-  font-weight: 700 !important;
-  font-size: 12px;
-}
-
-.overflow__993fa:not(.nameAndDecorators_c896d6 .overflow__993fa) {
-  font-size: 11pt;
-  font-weight: 500;
-}
-
 .link_ddbb36 {
   overflow: visible;
   width: calc(100% - 12px) !important;
@@ -88,6 +76,68 @@
 }
 
 /*  ------------------------------  */
+
+/* notice banner */
+.notice__5fd4c, .button__33db6{
+    text-transform: lowercase;
+}
+
+/* channel list */
+.primaryInfo__8d587, .overflow__993fa, .basicChannelRowLink__3b042 {
+    text-transform: lowercase;
+    font-family: var(--font);
+}
+.name_e8e549 {
+    font-size: 12pt;
+}
+
+/* voice chat container */
+.contents__322f4, .text-xs-normal__46d75 {
+    text-transform: lowercase;
+    font-family: var(--font);
+}
+
+/* avatar settings container */
+.text-sm-normal__95a78 {
+    text-transform: lowercase;
+    font-family: var(--font);
+}
+
+/* server overview */
+.h1_dc86b3, .header__23c07, .title__8b9e4, .unlockTierCtaHeading__84d32, .h5__28baa, .colorStandard__3d599, .eyebrow_b3f8ba, .item__48dda  {
+    text-transform: lowercase;
+    font-family: var(--font);
+}
+
+/* server boost status */
+.tierTitle_cc21b0, .tierRequirement_d22ce7, .perkTitle__64dfa, .perkDescription__5794e, .defaultColor__30336 {
+    text-transform: lowercase;
+    font-family: var(--font);
+}
+
+/* members list */
+.container__43554 {
+    text-transform: lowercase;
+    font-family: var(--font);
+    font-size: 11pt;
+}
+
+.activityText__31c22 {
+    text-transform: lowercase;
+}
+
+/* user settings */
+.text-md-normal__6e567, .headerText_e86b38, .h5__28baa  {
+    font-family: var(--font);
+    font-size: 11pt;
+}
+
+.container__5a2c3, .text-sm-medium__726be, .text-sm-semibold_d260b0, .text-md-medium_a84e09, .vc-settings-card, .modal__6a96b, .title_bdbe69, .flex_f18b02  {
+    text-transform: lowercase;
+    font-family: var(--font);
+}
+
+/*                                 */
 
 .animatedContainer__0e828,
 .bannerImage_c73a57 {
