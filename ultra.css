@@ -114,6 +114,7 @@ svg.cursorDefault--wfhy5 {
 
 .headerText_c0138d .overflow__993fa {
   text-transform: uppercase !important;
+  font-family: var(--font);
   font-weight: 700 !important;
   font-size: 12px;
 }
@@ -197,6 +198,10 @@ textarea {
 
 .container__84c26 {
   background-color: var(--background-primary) !important;
+}
+
+.wrapper-1VLyxH foreignObject:not(rect.pointerEvents__585e6) {
+  mask: unset;
 }
 
 #app-mount .lowerBadge-3WTshO {
@@ -623,6 +628,12 @@ code {
 
 .bannerSVGWrapper-qc0szY mask {
   display: none;
+}
+
+
+.mask_d5067d > foreignObject {
+  border-radius: 50%;
+  mask: unset;
 }
 
 .bd-error-modal-header,
